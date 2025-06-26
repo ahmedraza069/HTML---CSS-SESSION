@@ -12,6 +12,7 @@
     height: 100vh;
     background-size: cover;
     background-position: bottom center;
+    clip-path: polygon(0 0, 100% 0, 100% 81%, 59% 100%, 44% 100%, 0 78%);
 
 }
 .cow_section h1{
@@ -22,7 +23,7 @@
     color: bisque;
     font-family: cursive;
 }
-.cow_details{
+.cow_details, #cow_types{
     width: 75%;
     margin: 60px auto;
     background-color: rgb(255, 255, 0);
@@ -31,7 +32,7 @@
     border-color: rgb(1, 27, 255);
     border-style: solid;
 }
-.cow_details h1{
+.cow_details h1, #cow_types h1{
     text-align: center;
     color: brown;
     font-size: 70px;
@@ -53,4 +54,16 @@
 }
 .cow_details p .content_article{
     font-size: 35px;
+}
+
+#cow_types .cow_type{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.cow_type div{
+    min-width: 300px;
+}
+.cow_type img{
+    width: 100%;
 }
