@@ -26,7 +26,7 @@
 .cow_details, #cow_types{
     width: 75%;
     margin: 60px auto;
-    background-color: rgb(255, 255, 0);
+    background: linear-gradient(to right, rgba(223, 16, 16, 0), rgb(230, 67, 167));
     padding: 60px;
     border-width: 15px;
     border-color: rgb(1, 27, 255);
