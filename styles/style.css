@@ -32,7 +32,7 @@
     border-color: rgb(1, 27, 255);
     border-style: solid;
 }
-.cow_details h1, #cow_types h1{
+.cow_details h1{
     text-align: center;
     color: brown;
     font-size: 70px;
@@ -64,6 +64,6 @@
 .cow_type div{
     min-width: 300px;
 }
-.cow_type img{
-    width: 100%;
+#cow_type .cow_type .cow_header{
+    font-size: 20px;
 }
