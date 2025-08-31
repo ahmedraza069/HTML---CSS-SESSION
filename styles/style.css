@@ -60,10 +60,22 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
+    justify-content: center;
 }
 .cow_type div{
     min-width: 300px;
 }
-#cow_type .cow_type .cow_header{
+.cow_type img{
+    width: 100%;
+}
+#cow_types h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: red;
+    text-align: center;
+    padding-bottom: 15px;
+}
+#cow_types .cow_type .cow_header h1{
     font-size: 20px;
+    color: blue;
 }
